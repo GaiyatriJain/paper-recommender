@@ -13,7 +13,6 @@ A lightweight Python recommendation prototype that fetches real research paper m
 ## Requirements
 
 - Python 3.8 or newer
-- No external dependencies required
 
 ## Usage
 
