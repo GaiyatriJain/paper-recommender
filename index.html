@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paper Recommender</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 2rem; background: #f3f4f6; color: #111827; }
+    .container { max-width: 900px; margin: auto; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+    h1 { margin-top: 0; }
+    code { background: #e5e7eb; padding: 0.2rem 0.4rem; border-radius: 4px; }
+    pre { background: #f9fafb; padding: 1rem; border-radius: 8px; overflow-x: auto; }
+    a { color: #2563eb; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Paper Recommender</h1>
+    <p>This repository contains a working Python prototype that fetches real research paper metadata from Crossref and recommends papers in the terminal.</p>
+    <h2>How to run</h2>
+    <pre><code>C:/Users/gaiya/AppData/Local/Programs/Python/Python313/python.exe paper_recommenderss.py "machine learning"</code></pre>
+    <p>Or run without arguments to type a search query interactively.</p>
+    <h2>Interactive commands</h2>
+    <ul>
+      <li><strong>y</strong> / <strong>yes</strong> — accept</li>
+      <li><strong>n</strong> / <strong>no</strong> — reject</li>
+      <li><strong>s</strong> / <strong>save</strong> / <strong>later</strong> — save for later</li>
+      <li><strong>l</strong> / <strong>list</strong> — reading list</li>
+      <li><strong>p</strong> / <strong>profile</strong> — feedback summary</li>
+      <li><strong>q</strong> / <strong>quit</strong> — exit</li>
+    </ul>
+    <h2>Offline mode</h2>
+    <p>If you need a local fallback, run:</p>
+    <pre><code>C:/Users/gaiya/AppData/Local/Programs/Python/Python313/python.exe paper_recommenderss.py --local "machine learning"</code></pre>
+    <p>The default mode uses live Crossref data without placeholders.</p>
+  </div>
+</body>
+</html>
